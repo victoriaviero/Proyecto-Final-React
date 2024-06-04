@@ -17,11 +17,11 @@ import { FaAngleDoubleDown } from "react-icons/fa";
 
 const NavBar = () => {
     return (
-        <Flex 
-        justify={'space-between'}
-        align={'center'}
-        backgroundColor={'#C1C1C1'}>
-            <NavBar />
+        <Flex
+            justify={'space-between'}
+            align={'center'}
+            backgroundColor={'#C1C1C1'}
+        >
             <Box>
                 <Menu>
                     <MenuButton bg="#FFC300" m="10px" as={Button} rightIcon={<FaAngleDoubleDown />}>
