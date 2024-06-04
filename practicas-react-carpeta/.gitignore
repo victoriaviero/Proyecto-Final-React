@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Archivos ignorados
+package.json
+package-lock.json
