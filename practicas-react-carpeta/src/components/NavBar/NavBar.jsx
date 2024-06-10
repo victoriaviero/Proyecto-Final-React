@@ -25,11 +25,12 @@ const NavBar = () => {
             <Box>
                 <Menu>
                     <MenuButton bg="#FFC300" m="10px" as={Button} rightIcon={<FaAngleDoubleDown />}>
-                        Actions
+                        Productos
                     </MenuButton>
                     <MenuList>
-                        <MenuItem>Download</MenuItem>
-                        <MenuItem>Create a Copy</MenuItem>
+                        <MenuItem>Celulares</MenuItem>
+                        <MenuItem>Tablet</MenuItem>
+                        <MenuItem>Notebook</MenuItem>
                     </MenuList>
                 </Menu>
             </Box>
